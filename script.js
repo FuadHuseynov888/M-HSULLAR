@@ -67,8 +67,7 @@ const data = {
     { ad: "SEKER TOZU RUS", kod: "271 6808" },
     { ad: "TANELLİ BURĞU MAKARON", kod: "271 7191" },
     { ad: "TANELLİ BORUVARİ MAKARON", kod: "271 7190" },
-    { ad: "TANELLİ QƏLƏM MAKARON", kod: "271 7192" },
-    { ad: "C/M OVCULAR SEDEF SERVALAT", kod: "271 6644" }
+    { ad: "TANELLİ QƏLƏM MAKARON", kod: "271 7192" }
   ],
   "Sosiska": [
     { ad: "NƏFİS DAD SOSİSKA", kod: "271 6871" },
