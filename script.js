@@ -47,8 +47,8 @@ const data = {
       { ad: "SİYƏZƏN QANAD", kod: "271 5997",sekil:"S-Q-Q.png"  },
       { ad: "SİYƏZƏN FİLE", kod: "271 5996",sekil:"SIYEZEN-FIILE.png"  },
       { ad: "SİYƏZƏN TƏZƏ TOYUQ", kod: "271 6035",sekil:"S-S.png"  },
-      { ad: "SƏBA GÖY PAKET", kod: "271 6708",sekil:"S-G-P.png"  },
-      { ad: "MƏRCAN DONMUŞ TOYUQ", kod: "271 6951",sekil:"M-D-T.png"  },
+      { ad: "SƏBA GÖY PAKET DONMUŞ  ", kod: "271 6708",sekil:"S-G-P.png"  },
+      { ad: "MƏRCAN DONMUŞ TOYUQ", kod: "271 6951",sekil:"M-D-T.png" },
       { ad: "MƏRCAN FİLE QABDA", kod: "271 6953",sekil:"M-T-F-Q.png"  },
       { ad: "MƏRCAN FARŞ QABDA", kod: "271 8540",sekil:"M-F-Q.png"  }
    
@@ -68,7 +68,7 @@ const data = {
     { ad: "TANELLİ BURĞU MAKARON", kod: "271 7191" },
     { ad: "TANELLİ BORUVARİ MAKARON", kod: "271 7190" },
     { ad: "TANELLİ QƏLƏM MAKARON", kod: "271 7192" }
-  ],
+   ],
   "Sosiska": [
     { ad: "NƏFİS DAD SOSİSKA", kod: "271 6871" },
     { ad: "HALALDAD EKSTRA SOSİSKA", kod: "271 6140" },
