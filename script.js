@@ -49,8 +49,8 @@ const data = {
       { ad: "SİYƏZƏN TƏZƏ TOYUQ", kod: "271 6035",sekil:"S-S.png"  },
       { ad: "SƏBA GÖY PAKET", kod: "271 6708",sekil:"S-G-P.png"  },
       { ad: "MƏRCAN DONMUŞ TOYUQ", kod: "271 6951",sekil:"M-D-T.png"  },
-      { ad: "MƏRCAN FİLE QABDA", kod: "271 6951",sekil:"M-T-F-Q.png"  },
-      { ad: "MƏRCAN FARŞ QABDA", kod: "271 6953",sekil:"M-F-Q.png"  }
+      { ad: "MƏRCAN FİLE QABDA", kod: "271 6953",sekil:"M-T-F-Q.png"  },
+      { ad: "MƏRCAN FARŞ QABDA", kod: "271 8540",sekil:"M-F-Q.png"  }
    
   ],
   "Kolbasa": [
