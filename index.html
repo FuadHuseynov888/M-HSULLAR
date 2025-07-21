@@ -1,22 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="az">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Məhsul Kodları</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Məhsullar Kataloqu</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
-  <h1>Məhsul Kateqoriyaları</h1>
-  <div id="categories"></div>
+  <header>
+    <h1>Məhsullar</h1>
+    <input type="text" id="axtarish" placeholder="Məhsul axtar..." />
+    <button id="darkModeBtn" aria-label="Dark Mode dəyişdir">🌙</button>
+  </header>
 
-  <div id="products-section" class="hidden">
-    <button onclick="goBack()">← Geri</button>
-    <h2 id="category-title"></h2>
-    <div id="product-list"></div>
-  </div>
+  <main id="mehsulListesi"></main>
 
-  <script src="script.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('Service Worker qeydiyyatdan keçdi'))
+          .catch(err => console.error('Service Worker qeydiyyatı xətası:', err));
+      });
+    }
+  </script>
 </body>
 </html>
