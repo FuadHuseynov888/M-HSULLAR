@@ -1,94 +1,21 @@
-:root {
-  --bg: #ffffff;
-  --text: #000000;
-  --header-bg: #d0f0c0;
-  --input-bg: #f0f5e6;
-  --border-color: #9bcf8c;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
-  margin: 0;
-  padding: 0;
-}
-
-.dark-mode {
-  --bg: #2a4d14;       /* yaşıl fon */
-  --text: #f0e68c;     /* sarı yazı */
-  --header-bg: #466b1d;
-  --input-bg: #5b8235;
-  --border-color: #a7c65d;
-}
-
-header {
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 9999;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--header-bg);
-  padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-h1 {
-  margin: 0;
-}
-
-#axtarish {
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid var(--border-color);
-  border-radius: 5px;
-  background-color: var(--input-bg);
-  color: var(--text);
-  width: 200px;
-}
-
-#axtarish::placeholder {
-  color: var(--text);
-  opacity: 0.6;
-}
-
-#darkModeBtn {
-  background: none;
-  border: none;
-  font-size: 1.6rem;
-  cursor: pointer;
-  color: var(--text);
-}
-
-main {
-  padding: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
+  align-items: center;
 }
 
-.mehsul {
-  background-color: var(--input-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  width: 200px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.overlay-content {
   text-align: center;
 }
 
-.mehsul img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.mehsul h4 {
-  margin: 0.7rem 0 0.3rem 0;
-  font-size: 1.1rem;
-}
-
-.mehsul p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: var(--text);
+.overlay-content h2 {
+  font-size: 28px;
+  color: #e74c3c;
 }
