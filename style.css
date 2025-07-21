@@ -1,69 +1,94 @@
-
 :root {
-  --primary-color: #4CAF50;
-  --hover-color: #388E3C;
-  --text-color: hsl(0, 0%, 0%);
-  --bg-color: #009b08;
-  --card-bg: hwb(56 1% 0% / 0.959);
+  --bg: #ffffff;
+  --text: #000000;
+  --header-bg: #d0f0c0;
+  --input-bg: #f0f5e6;
+  --border-color: #9bcf8c;
 }
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
   margin: 0;
-  padding: 20px;
-  background: var(--bg-color);
-  color: var(--text-color);
+  padding: 0;
 }
-h1, h2 {
-  text-align: center;
-  color: var(--text-color);
-  margin-bottom: 20px;
+
+.dark-mode {
+  --bg: #2a4d14;       /* yaşıl fon */
+  --text: #f0e68c;     /* sarı yazı */
+  --header-bg: #466b1d;
+  --input-bg: #5b8235;
+  --border-color: #a7c65d;
 }
-#categories, #product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin: auto;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-bg);
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.card {
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  text-align: center;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+
+h1 {
+  margin: 0;
 }
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+
+#axtarish {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: var(--input-bg);
+  color: var(--text);
+  width: 200px;
 }
-.card img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
+
+#axtarish::placeholder {
+  color: var(--text);
+  opacity: 0.6;
 }
-.card p {
-  margin: 5px 0;
-}
-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 24px;
+
+#darkModeBtn {
+  background: none;
   border: none;
-  border-radius: 8px;
-  background-color: var(--primary-color);
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1.6rem;
   cursor: pointer;
-  transition: background-color 0.2s;
+  color: var(--text);
 }
-button:hover {
-  background-color: var(--hover-color);
+
+main {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
-.hidden {
-  display: none;
+
+.mehsul {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  width: 200px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.mehsul img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.mehsul h4 {
+  margin: 0.7rem 0 0.3rem 0;
+  font-size: 1.1rem;
+}
+
+.mehsul p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text);
 }
