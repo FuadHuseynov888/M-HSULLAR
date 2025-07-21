@@ -1,0 +1,98 @@
+[
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 1",
+    "kod": "2001",
+    "shekil": "mehsul1.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 2",
+    "kod": "2002",
+    "shekil": "mehsul2.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 3",
+    "kod": "2003",
+    "shekil": "mehsul3.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 4",
+    "kod": "2004",
+    "shekil": "mehsul4.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 5",
+    "kod": "2005",
+    "shekil": "mehsul5.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 6",
+    "kod": "2006",
+    "shekil": "mehsul6.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 7",
+    "kod": "2007",
+    "shekil": "mehsul7.jpg"
+  },
+  {
+    "kateqoriya": "Toyuq məhsulları",
+    "ad": "Məhsul 8",
+    "kod": "2008",
+    "shekil": "mehsul8.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 1",
+    "kod": "3001",
+    "shekil": "mehsul1.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 2",
+    "kod": "3002",
+    "shekil": "mehsul2.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 3",
+    "kod": "3003",
+    "shekil": "mehsul3.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 4",
+    "kod": "3004",
+    "shekil": "mehsul4.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 5",
+    "kod": "3005",
+    "shekil": "mehsul5.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 6",
+    "kod": "3006",
+    "shekil": "mehsul6.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 7",
+    "kod": "3007",
+    "shekil": "mehsul7.jpg"
+  },
+  {
+    "kateqoriya": "Kolbasa",
+    "ad": "Məhsul 8",
+    "kod": "3008",
+    "shekil": "mehsul8.jpg"
+  }
+]
