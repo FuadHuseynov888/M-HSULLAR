@@ -1,9 +1,0 @@
-{
-  "name": "Məhsullar Kataloqu",
-  "short_name": "Məhsullar",
-  "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "#2a4d14",
-  "theme_color": "#f0e68c",
-  "icons": []
-}
