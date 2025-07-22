@@ -1,0 +1,73 @@
+:root {
+  --primary-color: oklab(87.748% -0.08214 0.18011);
+  --hover-color: #0f00dd;
+  --text-color: #222222;
+  --bg-color: #00cc11c9;
+  --card-bg: #def700;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+h1, h2 {
+  text-align: center;
+}
+#categories, #product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.hidden {
+  display: none;
+}
+
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .card {
+    padding: 12px;
+  }
+  button {
+    width: 100%;
+  }
+}
